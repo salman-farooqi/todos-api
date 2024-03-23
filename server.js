@@ -1,27 +1,24 @@
 const express = require('express')
 const app = express()
 const PORT = 8000;
-const cors = require('cors');
-
-app.use(cors());
 
 const todos = {
     '1': {
         id: 1,
         userName: 'Salman Farooqi',
-        task: 'Write backend for Todo App',
+        task: 'Write backend code for Todo App',
         isCompleted: false,
     },
     '2': {
         id: 2,
         userName: 'Noman Bin Basheer',
-        task: 'Write backend for Todo App',
+        task: 'Help Salman write backend code for Todo App',
         isCompleted: false,
     },
     '3': {
         id: 3,
         userName: 'Hassan Sattar',
-        task: 'Write backend for Todo App',
+        task: 'Manage the ISC project',
         isCompleted: false,
     },
     'unknown': {
